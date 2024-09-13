@@ -1,0 +1,35 @@
+{
+  "name": "sql-blogging-app",
+  "version": "1.0.0",
+  "description": "A web application for blogging which has built in capabilities to handle various users. where users can create blogs, like them comment them and follow each other.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasbir96/node-sql-blogging-app.git"
+  },
+  "keywords": [],
+  "author": "Jasbir96 mr.jasbirsingh96@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasbir96/node-sql-blogging-app/issues"
+  },
+  "homepage": "https://github.com/Jasbir96/node-sql-blogging-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "slug": "^8.2.2",
+    "uuid": "^9.0.0"
+  }
+}
